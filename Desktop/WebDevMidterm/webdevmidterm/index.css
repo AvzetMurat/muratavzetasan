@@ -1,0 +1,121 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: ridge;
+    font-style: italic;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    height: 100px;
+    background-color: rgba(4, 68, 2, 0.32)
+}
+
+
+body {
+    background-color: rgba(255, 255, 255, 0.24);
+    margin: 0;
+    padding: 0;
+}
+
+.mainWrapper {
+    background-color: rgb(209, 229, 179);
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftBlock {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+
+}
+
+.leftsideBlocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(4, 68, 2, 0.32);
+    border: 10px solid green;
+    height: 100%;
+    width: 75%;
+
+}
+
+.middleBlocks {
+    flex: 3;
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+.rightBlock {
+    flex: 1;
+}
+
+.icons {
+    height: 50%;
+    width: 50%;
+    text-align: center
+}
+
+.moneyidiom {
+    text-align: right;
+    flex: 1;
+    font-size: x-large;
+
+}
+
+.imagesection {
+    flex: 1
+}
+
+.mainicons {
+    height: 20%;
+    width: 20%;
+}
+
+.endpage {
+    border-color: black;
+    text-align: center;
+    flex-direction: row;
+}
+
+#Profile {
+    background-color: rgba(4, 68, 2, 0.32);
+    border: 10px solid green;
+    border-style: ridge;
+    font-size: x-large;
+    text-align: center;
+
+
+}
+
+
+
+#Wallet {
+    background-color: rgba(4, 68, 2, 0.32);
+    border: 10px solid green;
+    border-style: ridge;
+    flex-direction: column;
+    font-size: large;
+    text-align: center;
+}
+
+#LastActivities {
+    background-color: rgba(4, 68, 2, 0.32);
+    border: 10px solid green;
+    border-style: ridge;
+    flex-direction: row;
+    font-size: large;
+    text-align: center;
+}
